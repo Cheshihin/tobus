@@ -1,0 +1,28 @@
+{
+  "name": "mkrep",
+  "homepage": "https://github.com/Blacknife/mybusi",
+  "authors": [
+    "Kornishin Maxim <xormax666@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "tooltipster": "^4.1.5",
+    "jsrender": "*",
+    "ckeditor": "4.5.11",
+    "jquery-loading": "*",
+    "components-font-awesome": "*",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47"
+  }
+}

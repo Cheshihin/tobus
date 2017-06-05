@@ -1,0 +1,745 @@
+/*
+.head_block {
+    margin: 10px 10px 5px;
+    height: 42px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14.0pt;
+    font-weight: 700;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+.left-panel {
+    width: 225px;
+}
+body table.info-list td{
+    line-height: 14px;
+}
+.sh_route {
+
+}
+.disp_info {
+    margin-top: 5px;
+    text-align: left;
+}
+.footer_block {
+    margin: 10px 10px;
+    height: 30px;
+}
+*/
+/*** для админки  ***/
+/*
+.grid-view table.items th{
+    text-align: center;
+}
+.grid-view th {
+    font-size: 11px;
+}
+.table{
+    font-size: 14px;
+}
+#admin-panel .table{
+    font-size: 12px;
+}
+.admin_header{
+    margin-left: 20px;
+}
+.grid-view{
+    padding:20px;
+}
+
+.help-block{
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+table.multitable td {
+    padding: 2px 4px;
+}
+
+#multitable-points .my_alert{
+    position: absolute;
+    top: 200px;
+    font-size: 14px; 
+}
+.controls .my_alert{ 
+    font-size: 14px; 
+}
+.form-horizontal input.available{
+    border-color: #1CC102;
+    color: #1CC102;
+}
+.form-horizontal .help-inline.available{
+    color: #1CC102;
+}
+
+.login-header{
+    height:40px;
+    width: 1000px;
+}
+.login-header h2{
+    margin: 0;
+}
+div.login_form{
+    margin-top: 20px;
+}
+div.center,p.center,img.center{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float:none !important;
+    display: block;
+    text-align:center;
+}
+.form-signin{
+    max-width: 350px;
+    padding: 19px 29px 29px;
+    margin: 100px auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+*/
+/*info-list*/
+td.reis_name{
+    border: 1.0pt dotted black;
+    border-radius: 7px;
+    text-align: left;
+    vertical-align: top;
+    color: black;
+    font-size: 14.0pt;
+    font-weight: 500;
+    text-decoration: underline;
+    padding: 10px 10px;
+    max-width: 110px;
+    overflow: hidden;
+    position: relative;
+}
+.reis_name_content {
+    position: relative;
+}
+.reis_name_content a {
+    color: #007fff;
+    text-decoration: none;
+}
+.count_people{
+    font-size: 15.0pt;
+    width: 113px;
+    height: 52px;
+}
+.info-list{
+    border-collapse: separate;
+    width: 100%;
+    cellspacing: 2px;
+    text-align: center;
+    vertical-align: middle;
+    border-left: 1px dashed #cccccc;
+    padding: 0 10%;
+}
+.info-list-right {
+    border-right: 1px dashed #cccccc;
+}
+
+table.info-list .points{
+    width: 60px;
+    font-size: 8.0pt;
+    padding:0 5px;
+}
+table.info-list .car_reis{
+    width: 113px;
+    font-size: 10.0pt;
+}
+.empty_tr{
+    height: 18px;
+}
+.sh_route{
+    font-size: 20.0pt;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+div.row_sh_route{
+    margin-bottom: 5px;
+    height: 25px;
+    vertical-align: middle;
+}
+.sh_route_div {
+    background-color: #FEFEFE;
+    margin-bottom: 5px;
+}
+.many_orders {
+    color: red;
+}
+/*Левое меню с кнопками*/
+/*
+.button_left, input.button_left{
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    width: 100%;
+}
+.btn_user{
+    color: black;
+}
+.btn_tmrw{
+    background-color: #66008D;
+    font-weight: 700;
+}
+.btn_tmrw:hover {
+    background-color: #44025E;
+}
+.btn_td {
+    background-color: #558E28;
+}
+.btn_td:hover,
+.btn_td:focus,
+.btn_td:active,
+.btn_td.active {
+    color: #ffffff;
+    background-color: #3A611C;
+}
+
+.btn_day{
+    background-color: #FCBD00;
+    color: black;
+}
+.btn_day:hover,
+.btn_day:focus,
+.btn_day:active,
+.btn_day.active {
+    background-color: #C29202;
+    color: #ffffff;
+}
+.btn_auto_update{
+    background-color: #FF766F;
+    color: black;
+}
+.btn_auto_update:hover,
+.btn_auto_update:focus,
+.btn_auto_update:active,
+.btn_auto_update.active {
+    background-color: #CF5F59;
+    color: #ffffff;
+}
+
+.btn_report {
+    background-color: #bbbbbb;
+}
+.btn_report:hover,
+.btn_report:focus,
+.btn_report:active,
+.btn_report.active {
+    background-color: #C8C8C8;
+    color: #999999;
+}
+
+.btn_admin {
+    background-color: #0f82f5;
+}
+.btn_admin:hover,
+.btn_admin:focus,
+.btn_admin:active,
+.btn_admin.active {
+    background-color: #0072e6;
+}
+
+input.btn_search {
+    height: 30px;
+}
+input.check_reis{
+    margin: 0 5px;
+}
+.btn_exit_site{
+    background-color: #558E28;
+}
+.btn_reis_add, .btn_reis_merge{
+    color: black;
+}
+*/
+/*Расстановка с merge*/
+/*
+.btn_merge_on{
+    display: block;
+}
+.btn_merge_off{
+    display: none;
+}
+*/
+/*background-color*/
+/*
+.bckgrnd_reis_add{
+    background-color: #FFFF33;
+}
+.bckgrnd_reis_update{
+    background-color: #ECBAFE;
+}
+.bckgrnd_reis_merge{
+    background-color: #FFFF33;
+}
+.bckgrnd_reis{
+    background-color: #558E28;
+    color: white;
+}
+.text_black{
+    color: black;
+}
+.date{
+    float: none;
+    color: white;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.date > li {
+    padding: 15px 0 15px 0;
+    margin-top: 0;
+}
+*/
+/* Запись клиентов */
+/*
+.bckgrnd_add_order_today {
+    background-color: #558E28;
+    color: white;
+}
+.bckgrnd_add_order_tomorrow {
+    background-color: #66008D;
+    color: white;
+}
+.bckgrnd_add_order_another{
+    background-color: #FCBD00; 
+    font-weight: bold;
+}
+.bckgrnd_add_order_group{
+    background-color: #D50000;
+    color: white;
+}
+.bckgrnd_add_order_update{
+    background-color: #0072e6;
+    color: white;
+}
+.bckgrnd_client_update {
+    background-color: #ECBAFE;
+}
+.create_order{
+    background-color: #558E28; 
+}
+.order_header{
+    font-size: 20px;
+    margin: 0 auto; 
+    text-align: center;
+}
+#d_b {
+    margin: 10px 0 20px 20px;
+    display: none;
+}
+ .table-bordered{
+    border-collapse: collapse;
+ }
+ .orders-box div.span6{
+     margin-left: 0;
+     padding-left:0;
+ }
+ #add_order .order_title{
+     margin-left: 0;
+     color: white;
+     text-align: center;
+ }
+ #add_order label{
+     cursor: default;
+ }
+
+.order_places{
+    font-size: 20px;
+    width: 90px;
+    margin: 0 5px;
+}
+.dropdown-menu{
+    z-index: 10000;
+}
+.check_border {
+    border: 1px #A9A9A9 solid;
+}
+#publishDate {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.search_input{
+    width: 211px;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+#publishDate {
+    width: 0;
+    padding: 0;
+    border: 0;
+}
+.o_e_btn{
+    margin-right: 4px;
+}
+
+.alert_elem{
+    width: 800px;
+    margin: 0px auto;
+}
+.navbar-inverse .nav > .active > a,.navbar .nav > .active > a:hover,.navbar-inverse .nav > li > a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.reis_info_panel{
+    margin: 20px;
+    line-height: 30px;
+    border: 1px solid #dddddd;    
+}
+.reis_info_panel .places_count{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.user_role {
+    font-style: italic;
+}
+.cancel_orders{
+    padding-left: 20px;
+}
+.expects{
+    background-color: #FFF9B4;
+}
+.grid-view tr.sended{
+    background-color:  #E6FFE6;
+}
+.grid-view tr.cancel{
+    background-color:#FFDBDB;
+}
+.grid-view tr.is-hide td{
+    background-color: #FFE5EE;
+}
+.grid-view tr.delivered td{
+    background-color: #87CEFA;
+}
+.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+    background-color: inherit;
+}
+.popover{
+    background-color: #FFFFFF;
+}
+.popover-title{
+    background-color: #eeeeee;
+    color:#555555;
+    border-radius: 0px;
+}
+#modal_merge_reis .controls > span,
+#main-page .controls > span{
+    display: inline-block;
+    vertical-align: baseline;
+    float: none;
+    padding-top: 5px;
+}
+#admin-panel .grid-view input,#admin-panel .grid-view select{
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 6px;
+}
+.add_order .row{
+    margin: 0px;
+}
+.auto_run {
+    color: green;
+}
+#order-form{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+#order-form .row{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.legend{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.legend .mark{
+    height:16px;
+    width: 16px; 
+    border:2px solid #dddddd;
+    float: left
+}
+.legend .expects{
+    background-color: #FFF9B4;
+}
+.legend .sended{
+    background-color: #E6FFE6;
+}
+.legend .cancel{
+    background-color: #FFDBDB;
+}
+.legend .l-title{
+    font-size: 16px;
+display: block;
+margin-bottom: 10px;
+}
+.legend .l-text{
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar .nav > li.active_day > a {
+    color: black;
+    background-color: white;
+}
+#order-form .control-group{
+    margin-bottom: 10px;
+}
+.r_list{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.logout, .add_car_driver, .r_list, #car_to_client, .add_order_plus {
+    cursor: pointer;
+}
+.r_list:hover{
+    color: #3C3C3C;
+    text-decoration: none;
+}
+
+.add_car_driver, .add_order_plus {
+    position: absolute;
+    left: auto;
+    bottom: -24px;
+    width: 23px;
+    height: 23px;
+    margin-left: 0;
+    right: -11px;
+    font-size: 14px;
+}
+.table#order_inf .tab_head{
+    font-size: 18px;
+    font-weight: bold; 
+}
+.table#order_inf .black{ 
+    font-weight:normal; 
+}
+.table#order_inf td{
+    font-weight:bold; 
+}
+.admin_m .li_low{
+    font-size: 11px;
+    line-height: 22px;
+    font-weight:bold;
+}
+body .car_number {
+    font-size: 12px;
+    border-bottom: 1px dashed gray;
+    margin: 0 10px 0 0;
+
+}
+.left-panel .btn {
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    width: 100%;
+}
+
+.reis_name_header {
+    margin-left: 60px;
+}
+*/
+
+/*модальное окно записи*/
+/*
+.record_client  .control-label{
+    text-align: left;
+    width: auto;
+    margin-right: 5px;
+}
+.record_client  .controls{
+    margin:0px;
+}
+.info-list tr{
+    height: 15px;
+}
+.record_client .right_col .control-group.reset .controls, .record_client .right_col .control-group.rec_reset .controls{
+    margin: 0;
+}
+*/
+ /*дата*/
+/*
+.left_col label{
+    width: 50px;
+}
+#Orders_fixed {
+    margin-top: 0px;
+}
+*/
+/*направление*/
+/*
+.record_client .rec_route .control-label{
+    margin-left: 0;
+    margin-right: 34px;
+}
+*/
+/*доп.телефон*/
+/*
+.record_client .rec_alt_phone .control-label{
+    margin-right: 15px;
+}
+*/
+/*ФИО*/
+/*
+.record_client .rec_name .control-label{
+    margin-right: 5px;
+}
+.record_client .rec_points .point_to{
+    margin-left: 12px;
+}
+*/
+/*число мест*/
+/*
+.c_container{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 10px;
+    font-size: 19px;
+} 
+#modal_record .modal-body{
+    padding:0;
+}
+#modal_record .rec_window{
+    padding:0 15px 0;
+}
+#modal_record .c_container{
+    height: 5px;
+    width: 100%;
+    margin: 0;
+}
+#modal_record label{
+    font-size: 12px;
+}
+#modal_record .modal-header{
+    margin-bottom: 5px;
+}
+#modal_record .modal-header h4{
+    margin:5px 0px;
+}
+#modal_record .help-block.error, #modal_record .help-inline.error{
+    display: none;
+}
+#modal_record .free_order{
+    color:red;
+    display:none;
+}
+#modal_record .price {
+    text-align: center;
+}
+#modal_record .free_order.show{
+    display:block;
+}
+.content .table-striped tbody > tr:nth-child(odd) > td, .content .table-striped tbody > tr:nth-child(odd) > th {
+    background-color: inherit;
+}
+#modal_record  .alert.alert-block{
+    position:absolute;
+    z-index: 10000; 
+    left: auto; 
+    max-width: 399px;
+    margin:0 auto;
+}
+#main-page .alert{
+    position:absolute;
+    z-index: 10000;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+}
+#add_new_order{
+    background: #558E28;
+    text-align: center;
+    font-size: 14.0pt;
+    font-weight: 700;
+    font-style: italic;
+    white-space: nowrap;
+}
+#add_new_order:hover{
+    background: #4F8127;
+}
+.bootstrap-select button{
+    background-color: inherit;
+    border: 1px solid #bbbbbb;
+    color: black;
+}
+.bootstrap-select .dropdown-menu > li > a{
+    color:black;
+}
+.bootstrap-select.error button{
+    border-color: #b94a48;
+    color: #b94a48;
+}
+#modal_tmtb_client{
+    z-index: 9999;
+}
+#modal_tmtb_client {
+    z-index: 10000;
+}
+.modal div.modal-header {
+    margin: 0;
+}
+
+.modal .head_block h4 {
+    height: 42px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14.0pt;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
+    line-height: 20px;
+    color: #555555;
+}
+
+span.tmtb-update {
+    color: #007fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+    div.span-12.modal-buttons {
+        margin-left: 15px;
+    }
+}
+
+.reis_sended {
+    background-color: paleturquoise;
+}
+
+li.now_date {
+    float: none;
+    padding: 15px 15px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #080808;
+}
+
+div.admin-body {
+    padding: 20px;
+}
+
+.all-routes .glyphicon {
+    font-size: 11pt;
+}
+*/

@@ -1,0 +1,339 @@
+
+.col-tobus-center {
+    width: 44%;
+    float: left;
+}
+.col-tobus-right {
+    width: 55%;
+    float: left;
+}
+.col-tobus-right-1, .col-tobus-right-2, .col-tobus-right-3, .col-tobus-right-4, .col-tobus-right-5 {
+    width: 11%;
+    float: left;
+}
+.col-tobus-right-2-3 {
+    width: 22%;
+    float: left;
+}
+
+#top-menu {
+    height: 50px;
+    border: solid 1px #DDDDDD;
+    border-width: 0 0 1px 0;
+}
+
+
+#top-menu{
+    font-weight: 700;
+}
+
+
+.orange-day #top-menu, #order-create-modal.orange-day .modal-header{
+    background: #FF9900;
+    color: #FFFFFF;
+}
+.purple-day #top-menu, #order-create-modal.purple-day .modal-header{
+    background: #9900FF;
+    color: #FFFFFF;
+}
+.blue-day #top-menu, #order-create-modal.blue-day .modal-header{
+    background: #6FA8DC;
+    color: #FFFFFF;
+}
+
+#top-menu .col-tobus-center{
+    height: 49px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.orange-day #top-menu .col-tobus-center {
+    background: #FFFFFF;
+    color: #FF9900;
+}
+.purple-day #top-menu .col-tobus-center {
+    background: #FFFFFF;
+    color: #9900FF;
+}
+.blue-day #top-menu .col-tobus-center {
+    background: #FFFFFF;
+    color: #6FA8DC;
+}
+
+
+#top-menu .col-tobus-right-1, #top-menu .col-tobus-right-2, #top-menu .col-tobus-right-3 {
+    padding: 15px 0;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+#top-menu .col-tobus-right-4 {
+    padding: 15px 0;
+    line-height: 20px;
+    text-align: center;
+}
+#top-menu .col-tobus-right-4 a{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+#top-menu .col-tobus-right-4 a:hover, #top-menu .col-tobus-right-4 a:active, #top-menu .col-tobus-right-4 a:focus{
+    text-decoration: none;
+    color: #EEEEFF;
+}
+
+#top-menu .col-tobus-right-5 {
+    padding: 7px 0 7px 15px;
+    font-size: 12px;
+    text-align: left;
+}
+
+#goto-today, #goto-tomorrow, #goto-another-day {
+    color: #FFFFFF;
+}
+
+a#goto-today:hover, a#goto-today:active, a#goto-today:focus,
+a#goto-tomorrow:hover, a#goto-tomorrow:active, a#goto-tomorrow:focus,
+#goto-another-day:hover, #goto-another-day:active, #goto-another-day:focus {
+    cursor: pointer;
+    text-decoration: none;
+    color: #EEEEFF;
+}
+
+.col-tobus-center-left, .col-tobus-center-right {
+    width: 50%;
+    float: left;
+}
+
+#new-order-today {
+    background: #FF9900;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #AAAAAA;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+#new-order-tomorrow {
+    background: #9900FF;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #AAAAAA;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+#new-order-another-day {
+    background: #6FA8DC;
+    color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+a#new-order-today:hover, a#new-order-tomorrow:hover, a#new-order-another-day:hover{
+    color: #EEEEEE;
+}
+
+
+#top-menu .another-day-item {
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+#another-day {
+    position: absolute;
+    margin-left:-50px;
+    width: 1px;
+}
+#top-menu .today-item.active {
+    background: #FFFFFF;
+    color: #000000;
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    height: 50px;
+}
+#top-menu .today-item.active * {
+    color: #000000;
+}
+
+#top-menu .tomorrow-item.active {
+    background: #FFFFFF;
+    color: #000000;
+    border-bottom: 1px solid #DDDDDD;
+    height: 50px;
+}
+#top-menu .tomorrow-item.active * {
+    color: #000000;
+}
+
+#top-menu .another-day-item.active {
+    background: #FFFFFF;
+    color: #000000;
+    border-bottom: 1px solid #DDDDDD;
+    height: 50px;
+}
+#top-menu .another-day-item.active *{
+    color: #000000;
+}
+
+
+#edit-trip {
+    background: #F6B26B;
+    color: #000000;
+    border: 1px solid #000000;
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+#day-report {
+    background: #F9F9F9;
+    color: #000000;
+    border: 1px solid #000000;
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+a#edit-trip:hover, a#day-report:hover{
+     color: #444444;
+}
+
+#admin-panel {
+    background: #000000;
+    color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+a#admin-panel:hover {
+    color: #EEEEEE;
+}
+
+#client-search {
+    color: #555555;
+    border: 1px solid #000000;
+    width: 100%;
+    padding: 5px 15px;
+    margin: 10px 0;
+}
+
+/* форма создания заказа - записи клиента */
+#order-create-modal.modal {
+    position: absolute;
+    left: calc(100% - 600px);
+    top: 0;
+}
+#order-create-modal.modal *{
+    font-size: 12px;
+}
+#order-create-modal .modal-dialog {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#order-create-modal .modal-header {
+    padding: 9px 15px;
+}
+
+#order-create-modal .modal-header .close {
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+#order-create-modal .yellow-line {
+    margin: 0px -15px 5px -15px;
+    background: #FFFF00;
+    padding: 2px 15px;
+}
+
+#order-create-modal .row {
+    margin: 0 0 0 0;
+}
+
+#order-create-modal .order-form .first-col {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: right;
+}
+
+#order-create-modal .order-form .checkbox {
+    display:block;
+    width: 100%;
+    height: 30px;
+    margin-top: -3px;
+    cursor:pointer;
+}
+
+#order-create-modal .order-form .input-text {
+    display:block;
+    width: 100%;
+}
+
+#order-create-modal .order-form .mini-side-padding {
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+#order-create-modal .order-form .nowrap {
+    white-space: nowrap;
+}
+
+#order-create-modal .order-form .label-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top:5px;
+    line-height: 1;
+    font-weight: normal;
+}
+
+#order-create-modal .order-form .label-vertical {
+    margin-bottom: 0;
+    margin-top: 3px;
+    font-weight: normal;
+    white-space:nowrap;
+}
+
+#order-create-modal .order-form .elem-horizontal {
+    display: inline-block;
+}
+
+#order-create-modal .order-form .form-group {
+    margin-bottom: 0;
+}
+
+/* TimePicker */
+#order-create-modal .order-form .bootstrap-timepicker-widget {
+    min-width: 90px;
+}
+#order-create-modal .order-form .bootstrap-timepicker-widget td{
+    height: 6px;
+}
+#order-create-modal .order-form .bootstrap-timepicker .form-control {
+    padding: 3px 6px;
+    height: 28px;
+}
+#order-create-modal .order-form .form-control {
+    padding: 3px 6px;
+    height: 28px;
+}
+
+#order-create-modal .order-form .disabled {
+    color: grey;
+}
+
+.add_order_plus {
+    position: absolute;
+    left: auto;
+    bottom: -14px;
+    width: 23px;
+    height: 23px;
+    margin-left: 0;
+    right: -11px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* конец: форма создания заказа - записи клиента */
